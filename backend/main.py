@@ -37,7 +37,7 @@ def home():
     return { 'message': 'FastAPI server is running'}
 
 @app.post("/upload-data")
-def upload_data(student:student):
+def upload_data(student: Student):
     print(student.id)
     print(student.name)
 
