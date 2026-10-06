@@ -2,4 +2,4 @@ fastapi
 pydantic
 google-generativeai
 python-dotenv
-uvicorngit add backend
+uvicorn
